@@ -4,7 +4,6 @@ email = input("Enter email address: ")
 ptype = input("Enter passenger type(Adult/Child/Student/Senior): ")
 tickets = int(input("Enter number of tickets: "))
 
-# lower() diye small letter banano, strip() diye age-pore-er space fela
 dest = destination.strip().lower()
 pt = ptype.strip().lower()
 
