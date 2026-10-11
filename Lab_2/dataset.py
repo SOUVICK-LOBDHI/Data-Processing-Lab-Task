@@ -1,0 +1,10 @@
+student_name = input("Enter student name: ")
+student_id = input("Enter student ID: ")
+department = input("Enter department: ")
+grade = float(input("Enter grade: "))
+
+print("\n----- Student Profile -----")
+print("Name:", student_name)
+print("Student ID:", student_id)
+print("Department:", department)
+print("Grade:", grade)
